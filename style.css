@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Georgia", serif;
+}
+
+body {
+  background: #050509;
+  color: #f5f5f5;
+}
+
+/* LOGIN */
+
+#login-screen {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box {
+  background: #111;
+  padding: 30px 40px;
+  border: 1px solid #444;
+  text-align: center;
+  min-width: 280px;
+}
+
+.login-box h1 {
+  margin-bottom: 20px;
+  letter-spacing: 4px;
+  font-size: 18px;
+}
+
+.login-box input {
+  width: 100%;
+  margin: 8px 0;
+  padding: 8px;
+  background: #000;
+  border: 1px solid #444;
+  color: #f5f5f5;
+}
+
+.login-box button {
+  margin-top: 12px;
+  width: 100%;
+  padding: 8px;
+  background: #b08a2e;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.error-msg {
+  color: #ff5555;
+  margin-top: 10px;
+  min-height: 18px;
+}
+
+/* APP */
+
+.hidden {
+  display: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  border-bottom: 1px solid #333;
+  background: #08080d;
+}
+
+.logo {
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #d4af37;
+}
+
+.user-info span {
+  margin-right: 10px;
+}
+
+user-info button,
+#logout-btn {
+  padding: 5px 10px;
+  background: #222;
+  border: 1px solid #555;
+  color: #f5f5f5;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  gap: 8px;
+  padding: 10px 20px;
+  border-bottom: 1px solid #333;
+  background: #0b0b10;
+}
+
+nav button {
+  background: #111;
+  border: 1px solid #333;
+  color: #f5f5f5;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+nav button:hover {
+  border-color: #d4af37;
+}
+
+main {
+  padding: 20px;
+}
+
+.section {
+  display: none;
+}
+
+.section.active {
+  display: block;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #d4af37;
+}
+
+/* TABLES */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 6px 8px;
+  font-size: 13px;
+}
+
+th {
+  background: #111;
+}
+
+/* LISTES */
+
+ul {
+  margin-left: 18px;
+  margin-top: 6px;
+}
+
+/* BOUTONS DANGER */
+
+.danger-btn {
+  background: #550000;
+  border: 1px solid #aa0000;
+  color: #f5f5f5;
+  padding: 8px 12px;
+  margin: 5px 5px 5px 0;
+  cursor: pointer;
+}
+
+#emergency-log {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #ffb347;
+}
